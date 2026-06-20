@@ -1,5 +1,5 @@
 import java.util.*;	
-public class Smith_number
+public class Smith_Number
 {
     Scanner sc=new Scanner(System.in);
     int n,m,i=2,temp,sum1=0,sum2=0,d;
@@ -50,7 +50,7 @@ public class Smith_number
     }
     public static void main(String args[])
     {
-        Smith_number ob=new Smith_number();
+        Smith_Number ob=new Smith_Number();
         ob.input();
         ob.calculate();
         ob.output();

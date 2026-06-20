@@ -1,5 +1,5 @@
 import java.util.*;
-public class Keith_number
+public class Keith_Number
 {
     Scanner sc=new Scanner(System.in);
     int n,n1,d,i,j,sum;
@@ -45,7 +45,7 @@ public class Keith_number
     }
     public static void main(String args[])
     {
-        Keith_number ob=new Keith_number();
+        Keith_Number ob=new Keith_Number();
         ob.input();
         ob.calculate();
         ob.output();

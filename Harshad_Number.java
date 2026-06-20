@@ -1,5 +1,5 @@
 import java.util.*;
-public class Harshad_number
+public class Harshad_Number
 {
     Scanner sc=new Scanner(System.in);
     int n,d,sum=0;
@@ -30,7 +30,7 @@ public class Harshad_number
     }
     public static void main(String args[])
     {
-        Harshad_number ob=new Harshad_number();
+        Harshad_Number ob=new Harshad_Number();
         ob.get();
         ob.process();
         ob.display();

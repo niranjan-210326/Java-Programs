@@ -127,5 +127,6 @@ public class Amrstrong_Adam_Largest_Sign
                break;
             }
         }while(ch<=4);
+        //sc.close();
     }
 }
